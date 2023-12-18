@@ -23,7 +23,7 @@ import os
 import openai
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
-
+#enter your openai api key in place of 'your_api_key'
 api_key = 'your_api_key'
 """Prompt for the router chain in the multi-prompt chain."""
 MULTI_PROMPT_ROUTER_TEMPLATE = """\
