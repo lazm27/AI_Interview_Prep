@@ -24,7 +24,7 @@ import openai
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
 
-api_key = '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'
+api_key = 'your_api_key'
 """Prompt for the router chain in the multi-prompt chain."""
 MULTI_PROMPT_ROUTER_TEMPLATE = """\
 Given a raw text input to a language model select the model prompt best suited for \
